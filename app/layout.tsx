@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     description: "Tanah luas 8.000 m² (40×200m) di samping Kantor Kecamatan Kertapati. Harga Rp 7,2 Miliar.",
     locale: "id_ID",
     type: "website",
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
   robots: { index: true, follow: true },
 };
