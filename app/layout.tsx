@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
   robots: { index: true, follow: true },
+  verification: {
+    google: "lRO4Xok3j51R0LoXydsF1zS7PId4WcCzCz2HEo624cM",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
